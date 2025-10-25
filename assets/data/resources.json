@@ -1,0 +1,258 @@
+[
+  {
+    "title": "Mathematics for ML",
+    "desc": "線性代數、微積分、機率與統計；對 ML 安全建模的數學地基。",
+    "link": "https://mml-book.github.io/",
+    "tags": [
+      "ML基礎",
+      "數學"
+    ]
+  },
+  {
+    "title": "Hands-On ML",
+    "desc": "用 Scikit-Learn 與 TensorFlow 入門與實戰。",
+    "link": "https://github.com/ageron/handson-ml3",
+    "tags": [
+      "ML基礎",
+      "深度學習"
+    ]
+  },
+  {
+    "title": "Data Engineering Zoomcamp",
+    "desc": "批次/即時資料管線、資料倉儲與雲端基礎。",
+    "link": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "tags": [
+      "資料工程",
+      "ETL"
+    ]
+  },
+  {
+    "title": "Anomaly Detection with Python",
+    "desc": "多種異常偵測演算法與案例。",
+    "link": "https://github.com/yzhao062/pyod",
+    "tags": [
+      "異常偵測",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "Isolation Forest Guide",
+    "desc": "Isolation Forest 基礎到實務。",
+    "link": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html",
+    "tags": [
+      "異常偵測"
+    ]
+  },
+  {
+    "title": "DeepLog",
+    "desc": "基於 LSTM 的日誌異常偵測。",
+    "link": "https://dl.acm.org/doi/10.1145/3133956.3134015",
+    "tags": [
+      "日誌",
+      "時序",
+      "異常偵測"
+    ]
+  },
+  {
+    "title": "Hunting with ML in SIEM",
+    "desc": "將 ML 與 SIEM 事件結合的實作範例與策略。",
+    "link": "https://www.elastic.co/security",
+    "tags": [
+      "SIEM",
+      "獵捕",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "UEBA Concepts",
+    "desc": "使用者與實體行為分析概念與應用。",
+    "link": "https://www.sans.org/blog/ueba-user-and-entity-behavior-analytics/",
+    "tags": [
+      "UEBA",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "Sigma + ML Patterns",
+    "desc": "以 Sigma 規則為核心，結合 ML 進行行為偵測的模式設計。",
+    "link": "https://sigmahq-py.readthedocs.io/",
+    "tags": [
+      "Sigma",
+      "規則",
+      "ML",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "Malware ML Pipeline",
+    "desc": "惡意樣本特徵抽取、向量化與分類管線。",
+    "link": "https://github.com/elastic/ember",
+    "tags": [
+      "Malware",
+      "DFIR",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "MalwareBazaar API",
+    "desc": "樣本查詢與自動化分析整合。",
+    "link": "https://bazaar.abuse.ch/api/",
+    "tags": [
+      "Malware",
+      "CTI"
+    ]
+  },
+  {
+    "title": "Knowledge Graph for CTI",
+    "desc": "將威脅情報結構化成知識圖譜以進行關聯分析。",
+    "link": "https://github.com/OpenCTI-Platform/opencti",
+    "tags": [
+      "CTI",
+      "知識圖譜"
+    ]
+  },
+  {
+    "title": "MISP Taxonomies",
+    "desc": "CTI 分類與共享架構。",
+    "link": "https://www.misp-project.org/taxonomies.html",
+    "tags": [
+      "CTI",
+      "TIP"
+    ]
+  },
+  {
+    "title": "Time Series with DL",
+    "desc": "使用深度學習處理時間序列的基礎與模型。",
+    "link": "https://github.com/unit8co/darts",
+    "tags": [
+      "時序",
+      "深度學習"
+    ]
+  },
+  {
+    "title": "Log Sequence Modeling",
+    "desc": "以序列模型學習系統/安全日誌模式。",
+    "link": "https://github.com/logpai/loglizer",
+    "tags": [
+      "日誌",
+      "異常偵測"
+    ]
+  },
+  {
+    "title": "SOAR Playbooks",
+    "desc": "開源 SOAR 與可重用 IR 劇本。",
+    "link": "https://github.com/demisto/content",
+    "tags": [
+      "SOAR",
+      "IR"
+    ]
+  },
+  {
+    "title": "AIOps Overview",
+    "desc": "AIOps 概觀與監控告警自動化。",
+    "link": "https://www.ibm.com/topics/aiops",
+    "tags": [
+      "AIOps",
+      "監控"
+    ]
+  },
+  {
+    "title": "GenAI Blue Team",
+    "desc": "生成式 AI 在藍隊中的策略與案例。",
+    "link": "https://github.com/mandiant/azure-openai-ir-guidance",
+    "tags": [
+      "GenAI",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "LLM Guardrails",
+    "desc": "輸入輸出安全與政策護欄。",
+    "link": "https://github.com/guardrails-ai/guardrails",
+    "tags": [
+      "GenAI",
+      "治理"
+    ]
+  },
+  {
+    "title": "RAG for DFIR",
+    "desc": "在鑑識流程中導入檢索增強生成的設計與驗證。",
+    "link": "https://github.com/jina-ai/awesome-rag",
+    "tags": [
+      "RAG",
+      "DFIR"
+    ]
+  },
+  {
+    "title": "Report Drafting with LLMs",
+    "desc": "用 LLM 協助草擬與校對鑑識報告。",
+    "link": "https://arxiv.org/abs/2402.06700",
+    "tags": [
+      "LLM",
+      "DFIR"
+    ]
+  },
+  {
+    "title": "LLM Red Teaming",
+    "desc": "語言模型紅隊測試與對抗樣本收集。",
+    "link": "https://github.com/llm-attacks",
+    "tags": [
+      "RedTeam",
+      "攻防"
+    ]
+  },
+  {
+    "title": "Jailbreak Benchmarks",
+    "desc": "越獄測試基準與資料集。",
+    "link": "https://github.com/centerforaisafety/llm-app-safety-leaderboard",
+    "tags": [
+      "攻防",
+      "GenAI"
+    ]
+  },
+  {
+    "title": "Threat Intel Platforms",
+    "desc": "TIP 平台實務與整合。",
+    "link": "https://github.com/MISP/MISP",
+    "tags": [
+      "CTI",
+      "TIP"
+    ]
+  },
+  {
+    "title": "ATT&CK Mapping",
+    "desc": "將事件與偵測對齊 MITRE ATT&CK。",
+    "link": "https://attack.mitre.org/",
+    "tags": [
+      "ATT&CK",
+      "藍隊"
+    ]
+  },
+  {
+    "title": "Risk-Based Hunting",
+    "desc": "以風險優先級導向獵捕與修補。",
+    "link": "https://www.first.org/resources/papers/conf2019/firstcon19-conference-proceedings.pdf",
+    "tags": [
+      "風險",
+      "獵捕"
+    ]
+  },
+  {
+    "title": "Blue Team KPIs",
+    "desc": "MTTD/MTTR 與偵測效能衡量。",
+    "link": "https://www.sans.org/blog/incident-response-metrics/",
+    "tags": [
+      "藍隊",
+      "KPI"
+    ]
+  },
+  {
+    "title": "MLOps for Security",
+    "desc": "在安全場景部署與維護 ML 的最佳實務。",
+    "link": "https://github.com/awslabs/security-ml-ops",
+    "tags": [
+      "MLOps",
+      "藍隊"
+    ]
+  }
+]

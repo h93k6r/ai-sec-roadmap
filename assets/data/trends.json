@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2025-10-20",
+    "title": "供應鏈 LLM 外掛風險盤點",
+    "summary": "針對外掛與工具呼叫中的憑證管理、權限分離與審計提出最低基線。",
+    "link": "https://arxiv.org/",
+    "category": "藍隊"
+  },
+  {
+    "date": "2025-10-10",
+    "title": "自動化 jailbreak 測試框架更新",
+    "summary": "引入多輪誘導與上下文污染測試，有助於 AI Red Team 持續回歸。",
+    "link": "https://github.com/llm-attacks",
+    "category": "攻防"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "DFIR × RAG：證據鏈可溯性實務",
+    "summary": "強調可引用與來源鏈接在調查回覆中的強制性。",
+    "link": "https://github.com/jina-ai/awesome-rag",
+    "category": "鑑識"
+  },
+  {
+    "date": "2025-08-15",
+    "title": "AI 治理的密鑰管理最小實作",
+    "summary": "覆蓋提示加密、輸出脫敏與審計日誌。",
+    "link": "https://www.ibm.com/topics/ai-governance",
+    "category": "法規/治理"
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Black Hat / DEF CON 精選議程",
+    "summary": "針對模型攻防、資料投毒、工具鏈安全的精選連結集合。",
+    "link": "https://www.blackhat.com/",
+    "category": "會議"
+  },
+  {
+    "date": "2025-07-01",
+    "title": "IEEE S&P / NDSS 近期論文索引",
+    "summary": "關注生成式 AI 安全、對抗樣本與可解釋偵測。",
+    "link": "https://www.ieee-security.org/TC/SP-Index.html",
+    "category": "會議"
+  }
+]

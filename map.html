@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="page.title.map">AI 資安深造地圖</title>
+  <meta name="description" content="面向資安專家、威脅獵捕與數位鑑識工程師的 AI 深造地圖與資源索引。" />
+  <meta name="theme-color" content="#0b1220" />
+  
+  <meta property="og:title" content="AI 資安深造地圖 | AI Security Roadmap" />
+  <meta property="og:description" content="面向藍隊與鑑識專家的 AI × Security 進修地圖、資源索引與研究趨勢。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI 資安深造地圖 | AI Security Roadmap" />
+  <meta name="twitter:description" content="面向藍隊與鑑識專家的 AI × Security 進修地圖、資源索引與研究趨勢。" />
+  <meta name="twitter:image" content="assets/images/og.png" />
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="logo" class="logo"/>
+      <span data-i18n="site.brand">AI 資安深造地圖</span>
+    </a>
+    <nav>
+      <a href="map.html" data-i18n="nav.map">知識地圖</a>
+      <a href="resources.html" data-i18n="nav.resources">學習資源</a>
+      <a href="trends.html" data-i18n="nav.trends">研究趨勢</a>
+      <a href="about.html" data-i18n="nav.about">關於/貢獻</a>
+    </nav>
+    <div class="lang-switch">
+      <label for="lang">🌐</label>
+      <select id="lang">
+        <option value="zh" selected>繁中</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+  <main class="container">
+
+<section>
+  <h2 data-i18n="map.title">AI 資安深造知識地圖</h2>
+  <p data-i18n="map.desc">此地圖描繪核心能力節點與建議進階路徑。將滑動至節點說明以獲得對應資源。</p>
+  <figure>
+    <img src="assets/images/roadmap.svg" alt="AI 資安深造知識地圖示意圖" style="width:100%;max-width:1120px"/>
+  </figure>
+
+  <div class="note">
+    <strong data-i18n="map.tip_title">閱讀建議：</strong>
+    <span data-i18n="map.tip">先確立數學/ML 與資料工程基礎，再循藍隊落地與自動化整合；最後跨入生成式 AI 與 AI Red Team。</span>
+  </div>
+</section>
+
+<section>
+  <h3 data-i18n="map.section_resources">節點對應資源</h3>
+  <div id="node-resources" class="list"></div>
+</section>
+
+<script defer src="assets/js/map.js"></script>
+
+  </main>
+  <footer class="site-footer">
+    <p>© 2025 AI 資安深造地圖 — <span data-i18n="footer.mission">以開源精神推動 AI × Security 能力提升。</span></p>
+    <p data-i18n="footer.license">本網站以 GitHub Pages 提供；內容採用 CC BY 4.0 授權。</p>
+  </footer>
+</body>
+</html>

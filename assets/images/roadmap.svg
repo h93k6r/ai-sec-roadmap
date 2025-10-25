@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="AI 資安深造知識地圖">
+  <defs>
+    <style>
+      .box { fill: #0b1220; stroke: #2a4570; stroke-width: 1.4; rx: 10; ry: 10; }
+      .text { font: 14px sans-serif; fill: #e6f0ff; }
+      .muted { fill: #9fb0c9; }
+      .arrow { stroke: #60a5fa; stroke-width: 1.8; fill: none; }
+      marker#arrow { markerWidth: 10; markerHeight: 10; refX: 6; refY: 3; orient: auto; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="6" refY="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/>
+    </marker>
+  </defs>
+
+  <!-- Column: Core path -->
+  <rect class="box" x="470" y="30" width="260" height="60"/>
+  <text class="text" x="600" y="66" text-anchor="middle">數學與 ML 基礎</text>
+
+  <rect class="box" x="470" y="120" width="260" height="60"/>
+  <text class="text" x="600" y="156" text-anchor="middle">資料工程 / ETL</text>
+
+  <rect class="box" x="470" y="210" width="260" height="60"/>
+  <text class="text" x="600" y="246" text-anchor="middle">特徵工程與異常偵測</text>
+
+  <rect class="box" x="470" y="300" width="260" height="60"/>
+  <text class="text" x="600" y="336" text-anchor="middle">威脅獵捕 ML 流程</text>
+
+  <!-- Left branch from D -->
+  <rect class="box" x="120" y="390" width="260" height="60"/>
+  <text class="text" x="250" y="426" text-anchor="middle">行為分析 / UEBA</text>
+  
+  <rect class="box" x="120" y="480" width="260" height="60"/>
+  <text class="text" x="250" y="516" text-anchor="middle">SIEM 規則 x ML 融合</text>
+
+  <!-- Right branch from D -->
+  <rect class="box" x="820" y="390" width="260" height="60"/>
+  <text class="text" x="950" y="426" text-anchor="middle">惡意樣本分析自動化</text>
+
+  <rect class="box" x="820" y="480" width="260" height="60"/>
+  <text class="text" x="950" y="516" text-anchor="middle">圖形化威脅情報 (KG)</text>
+
+  <!-- A -> I deep learning path (right side) -->
+  <rect class="box" x="820" y="120" width="260" height="60"/>
+  <text class="text" x="950" y="156" text-anchor="middle">深度學習 / 時序模型</text>
+
+  <rect class="box" x="820" y="210" width="260" height="60"/>
+  <text class="text" x="950" y="246" text-anchor="middle">網路流量與日誌序列建模</text>
+
+  <rect class="box" x="820" y="300" width="260" height="60"/>
+  <text class="text" x="950" y="336" text-anchor="middle">自動化 IR 劇本</text>
+
+  <rect class="box" x="820" y="570" width="260" height="60"/>
+  <text class="text" x="950" y="606" text-anchor="middle">威脅情報融合 (TIP)</text>
+
+  <rect class="box" x="820" y="660" width="260" height="60"/>
+  <text class="text" x="950" y="696" text-anchor="middle">攻擊圖譜關聯 (ATT&amp;CK)</text>
+
+  <rect class="box" x="820" y="750" width="260" height="60"/>
+  <text class="text" x="950" y="786" text-anchor="middle">主動獵捕與風險優先級</text>
+  <!-- L: AIOps / SOAR 整合 -->
+  <rect class="box" x="820" y="390" width="260" height="60"/>
+  <text class="text" x="950" y="426" text-anchor="middle">AIOps / SOAR 整合</text>
+
+  <!-- GenAI branch from I -->
+  <rect class="box" x="1080" y="210" width="260" height="60"/>
+  <text class="text" x="1210" y="246" text-anchor="middle">生成式 AI 在藍隊</text>
+
+  <rect class="box" x="1030" y="300" width="260" height="60"/>
+  <text class="text" x="1160" y="336" text-anchor="middle">自訂檢索 (RAG) 對查核</text>
+
+  <rect class="box" x="1080" y="390" width="260" height="60"/>
+  <text class="text" x="1210" y="426" text-anchor="middle">鑑識報告草擬與比對</text>
+
+  <rect class="box" x="1130" y="300" width="260" height="60"/>
+  <text class="text" x="1260" y="336" text-anchor="middle">AI Red Team / 攻防演練</text>
+
+  <!-- connectors core vertical -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 600 90 L 600 120"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 600 180 L 600 210"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 600 270 L 600 300"/>
+
+  <!-- D to left and right branches -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 600 330 C 500 350, 400 380, 250 390"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 600 330 C 700 350, 800 380, 950 390"/>
+
+  <!-- E to F, G to H -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 250 450 L 250 480"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 450 L 950 480"/>
+
+  <!-- A to I vertical/right -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 600 60 C 720 60, 780 60, 950 120"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 180 L 950 210"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 270 L 950 300"/>
+
+  <!-- H to Q to R to S -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 540 L 950 570"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 630 L 950 660"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 720 L 950 750"/>
+
+  <!-- J to K to L -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 360 L 950 390"/>
+
+  <!-- I to M and its children -->
+  <path class="arrow" marker-end="url(#arrow)" d="M 950 150 C 1040 170, 1110 190, 1210 210"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 1210 270 C 1210 280, 1160 290, 1160 300"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 1210 270 C 1260 300, 1260 360, 1210 390"/>
+  <path class="arrow" marker-end="url(#arrow)" d="M 1210 270 C 1290 300, 1320 300, 1260 300"/>
+
+  <!-- Caption -->
+  <text class="muted" x="600" y="860" text-anchor="middle">此圖為示意：實際學習路徑可依需求調整。</text>
+</svg>
